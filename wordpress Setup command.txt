@@ -1,0 +1,28 @@
+     sudo apt update
+     sudo apt upgrade
+     sudo apt install apache2 -y
+     systemctl enable apache2
+     cler
+     clear
+     sudo apt install php-curl php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
+    ls
+    sudo systemctl restart apache2
+    sudo apt install php libapache2-mod-php
+    sudo apt install mysql-client
+   
+    mysql -h database-1.cvwwce0ma4vp.us-east-1.rds.amazonaws.com -u admin -p
+    curl -O https://wordpress.org/latest.tar.gz
+    tar -xf latest.tar.gz
+    sudo cp -r wordpress/ . /var/www/html/
+    sudo cp -r wordpress/. /var/www/html/
+   
+    sudo rm /var/www/html/index.html
+    cd /var/www/html/
+    ls
+    sudo cp wp-config-sample.php wp-config.php
+   
+    sudo vim wp-config.php
+    cat wp-config.php
+    sudo systemctl restart apache2
+    sudo apt install php
+    
